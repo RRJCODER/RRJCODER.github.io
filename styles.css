@@ -55,11 +55,15 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 90vw;
-    
+    height: 20px;
+
   }
 
-  .panel:nth-of-type(12),
-  .panel:nth-of-type(11) {
+.panel .active{
+  width: 500px;;
+}
+  .panel:nth-of-type(8),
+  .panel:nth-of-type(9) {
     display: none;
   }
 }
