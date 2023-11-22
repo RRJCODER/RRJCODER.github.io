@@ -55,12 +55,18 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 90vw;
-    height: 20px;
+   
+
 
   }
 
-.panel .active{
-  width: 500px;;
+  .panel{
+    background-size: cover;
+    flex:1
+  }
+
+.panel.active{
+  flex: 40;
 }
   .panel:nth-of-type(8),
   .panel:nth-of-type(9) {
